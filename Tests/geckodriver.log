@@ -1,0 +1,15 @@
+1637924292073	geckodriver	INFO	Listening on 127.0.0.1:50501
+1637924292591	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50502" "-foreground" "-no-remote" "-profile" "/var/folders/by/4jvyr0nj0zncphdb7y1ws5l00000gn/T/rust_mozprofileD3sQ10"
+1637924292912	Marionette	INFO	Marionette enabled
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/by/4jvyr0nj0zncphdb7y1ws5l00000gn/T/rust_mozprofileD3sQ10/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:50502/devtools/browser/3557fa8c-434d-4144-82c8-42d29c450418
+1637924293660	Marionette	INFO	Listening on port 50509
+1637924293762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637924293769	Marionette	INFO	Stopped listening on port 50509
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
